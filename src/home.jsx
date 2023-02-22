@@ -17,180 +17,187 @@ import card2 from './imgs/soft-3-2.png';
 import card1 from './imgs/soft-3.png';
 function Home() {
     const handleNavDrop = () =>{
-        document.getElementById("navdrop").classList.toggle("hidden");
+        document.getElementById("navdrop").classList.toggle("small-window-2");
+        document.getElementById('navdrop').classList.toggle('small-window');
     }
     return (
         <div className="bg-black-con">
-            <div className="h-screen flex flex-col">
-                <nav className="flex  flex-col">
-                    <div className="flex w-screen p-2">
-                        <div className="w-2/3">
-                            <img src={logo} alt=""/>
+            <div className="homecontainer lg-home">
+                <nav className="hm lg-nav">
+                    <div className="hh lg-logo ">
+                        <div className="aa lg-img-logo  ">
+                            <img src={logo} width={"25%"} height={"50%"} alt=""/>
+                            <div className="small-window-toggle signup flex gap-2 items-center justify-center">
+                                <i className="fa-solid text-2xl p-1 fa-circle-user"></i>
+                                <button className=" inter ac p-1 "> Sign Up</button> 
+                            </div>
                         </div>
-                        <div className="text-white relative flex justify-end pr-2 gap-4 w-1/3 justify-self-end">
-                            <button className="flex inter items-center gap-2"><i className="fa-solid fa-circle-user"></i> Sign Up</button> 
-                            <button className="fa-solid fa-bars" onClick={handleNavDrop}></button>
-                            <div className="flex flex-col ash h-screen hidden text-left text-black absolute -right-3 gap-4 top-10 z-20 bg-green p-2 text-sm " id="navdrop">
+                        <div className="ab">
+                            <div className="small-window">
+                                <button className="fa-solid fa-bars" onClick={handleNavDrop}></button>
+                            </div>
+                            <div className="ash bg-green ad lg-home-nav-items small-window-2" id="navdrop">
                         
-                                <Link id="home" >Home</Link>
-                                <Link id="home" >The Facility</Link>
-                                <Link id="home" >Memberships</Link>
-                                <Link id="home" >Batting Cages</Link>
-                                <Link id="home" >Programs & Events</Link>
-                                <Link id="home" >Contact Us</Link>
-                                <button className="border-2 border-black rounded-md py-1 -px-2 " onClick={handleNavDrop}>Close</button>
+                                <Link id="home" className="lg-home-nav-item" >Home</Link>
+                                <Link id="home" className="lg-home-nav-item" >The  Facility</Link>
+                                <Link id="home" className="lg-home-nav-item" >Memberships</Link>
+                                <Link id="home" className="lg-home-nav-item" >Batting Cages</Link>
+                                <Link id="home" className="lg-home-nav-item" >Programs & Events</Link>
+                                <Link id="home" className="lg-home-nav-item" >Contact Us</Link>
+                                <button className="ae small-window" onClick={handleNavDrop}>Close</button>
                             </div>
                         </div>
                     </div>
-                    
                 </nav>
-                <div className="video-con-1 relative">
-                    <div className="h-full home-video-parent z-10 relative ">
-                        <video className="home-video"   autoPlay loop muted  >
+                <div className="video-con-1 af lg-home-video-parent">
+                    <div className="home-video-parent lg-home-video-1  ">
+                        <video className="home-video parallax-video-sm "   autoPlay loop muted  >
                                 <source src="con1.mp4" type="video/mp4"/>
                         </video>
                     </div>
-                    <div className="z-20 bottom-1/3 flex-col flex gap-2 p-2 absolute">
-                            <div className="text-white font-bold darker text-3xl">OLYMPIC INDOOR SPORTS</div>
-                            <div className="bg-green-1 px-2 darker py-1 text-lg font-bold ">High Perfomance Facility in the USA.</div>
-                            <div className="flex mt-2 inter w-full gap-4">
-                                <button className="bg-green-1 px-8 py-1 text-xl">Register</button>
-                                <button className="bg-yellow px-8 py-1 text-xl">Learn More</button>
+                    <div className="ah lg-home-overflow">
+                            <div className="ai home-t1">OLYMPIC INDOOR SPORTS</div>
+                            <div className="bg-green-1 home-t2 darker aj">High Perfomance Facility in the USA.</div>
+                            <div className="ak inter home-g1">
+                                <button className="bg-green-1 home-t3 al">Register</button>
+                                <button className="bg-yellow home-t4 am">Learn More</button>
                             </div>
                         </div>
                 </div>        
-                <div className="flex text-center py-2 gap-3 bg-gray">
-                    <div className=" flex w-2/5  items-center gap-2 px-4 py-2 rounded-tr-2xl bg-black text-white ">
-                        <span className="w-full do">WHAT WE DO!</span>
-                        <span className="h-2 bg-green w-8 "></span>
+                <div className="an lg-home-bottom bg-gray">
+                    <div className=" ao bg-black lg-bt-1">
+                        <span className="ap do lg-bt-t1">WHAT WE DO!</span>
+                        <span className=" bg-green aq lg-hr "></span>
                     </div>
-                    <div className=" flex w-3/5  items-center gap-2  py-2 rounded-tl-2xl bg-black text-white ">
-                    <img src="ticker-1.gif" className="px-2" alt="" srcset="" />
+                    <div className=" lg-bt-2  bg-black ar">
+                    <img src="ticker-1.gif" className="as" alt="" srcset="" />
                     </div>
                 </div> 
             </div>
-            <div className="">
-                <div className="h-full py-8 px-4 flex parallax-img2">
-                    <div className="flex m-auto gap-5 p-2 justify-center items-center   flex-col">
-                            <div className=" home-card w-5/6 relative ">
-                                    <div className="bg-home-card text-center overflow-hidden home-card-title py-6">
-                                        <span className="text-2xl font-bold text-white aldrich">BASEBALL</span>
+            <div className="lg-home">
+                <div className="parallax-img2">
+                    <div className="au lg-cat">
+                            <div className=" home-card lg-card av ">
+                                    <div className="bg-home-card lg-card-top home-card-title aw">
+                                        <span className="ax aldrich lg-card-t1">BASEBALL</span>
                                     </div>
-                                    <div className="relative items-center flex">
-                                        <div className="w-full flex h-full">
-                                            <img src={card1} height="80%" width={"90%"} alt="" />
+                                    <div className="ay">
+                                        <div className="az lg-card-img-p">
+                                         <img src={card1} height="80%" width={"90%"} alt="" />
                                         </div>
-                                        <div className="absolute h-2/3 top-50% w-3 rounded-tl-3xl rounded-br-3xl bg-home-card">
+                                        <div className="bs bg-home-card">
 
                                         </div>
                                     </div>
-                                    <hr className="border-2 bg-white box-border"/>
-                                    <div className=" w-full p-6 text-center">
-                                        <span className="text-color-1 text-3xl font-bold inter ">REGISTER</span>
+                                    <hr className="bg-white lg-card-bt bb"/>
+                                    <div className="lg-card-bt-bg bc">
+                                        <span className="text-color-1 bd lg-card-t1 inter ">REGISTER</span>
                                     </div>
                             </div>
-                            <div className=" home-card w-5/6 relative ">
-                                    <div className="bg-home-card text-center overflow-hidden home-card-title py-6">
-                                        <span className="text-2xl font-bold text-white alrich">SOFTBALL</span>
+                            <div className=" home-card lg-card be">
+                                    <div className="bg-home-card lg-card-top home-card-title bf">
+                                        <span className="bg alrich lg-card-t1">SOFTBALL</span>
                                     </div>
-                                    <div className="relative items-center flex">
-                                        <div className="w-full flex h-full">
-                                            <img src={card2} height="100%" width={"100%"} alt="" />
+                                    <div className="bh lg-card-img-p">
+                                        <div className="bi lg-card-img">
+                                            <img src={card2} className="lg-card-img" height="20rem" width={"%"} alt="" />
                                         </div>
-                                        <div className="absolute h-2/3 top-50% w-3 rounded-tl-3xl rounded-br-3xl bg-home-card">
+                                        <div className="bs bg-home-card">
 
                                         </div>
                                     </div>
-                                    <hr className="border-2 bg-white box-border"/>
-                                    <div className=" w-full p-6 text-center">
-                                        <span className="text-color-1 text-3xl font-bold inter">REGISTER</span>
+                                    <hr className="bg-white lg-card-bt bk"/>
+                                    <div className="bl lg-card-bt-bg">
+                                        <span className="text-color-1 bm lg-card-t1 inter">REGISTER</span>
                                     </div>
                             </div>
-                            <div className=" home-card w-5/6 relative ">
-                                    <div className="bg-home-card text-center overflow-hidden home-card-title py-6">
-                                        <span className="text-2xl font-bold text-white aldrich ">CRICKET</span>
+                            <div className=" home-card lg-card bn ">
+                                    <div className="bg-home-card lg-card-top home-card-title bo">
+                                        <span className="bp aldrich lg-card-t1 ">CRICKET</span>
                                     </div>
-                                    <div className="relative items-center flex">
-                                        <div className="w-full flex h-full">
+                                    <div className="bq">
+                                        <div className="br lg-card-img-p">
                                             <img src={card3} height="80%" width={"90%"} alt="" />
                                         </div>
-                                        <div className="absolute h-2/3 top-50% w-3 rounded-tl-3xl rounded-br-3xl bg-home-card">
-
+                                        <div className="bs  bg-home-card">
                                         </div>
                                     </div>
-                                    <hr className="border-2 bg-white box-border"/>
-                                    <div className=" w-full p-6 text-center">
-                                        <span className="text-color-1 text-3xl font-bold inter ">REGISTER</span>
+                                    <hr className=" bg-white lg-card-bt bt"/>
+                                    <div className=" lg-card-bt-bg bu">
+                                        <span className="text-color-1 bv inter lg-card-t1 ">REGISTER</span>
                                     </div>
                             </div>
                     </div>
                 </div>
             </div>
-            <div className="h-screen">
-                <div className="h-full flex parallax-img">
-                    <div className="flex m-auto text-left text-white gap-3 flex-col">
-                    <div className="flex p-4 items-center ">
-                        <span className="text-5xl w-1/2 darker  ">About Us</span>
-                        <span className="bg-green h-2 w-1/2"> </span>
+            <div className="lg-c3">
+            <div className="bw lg-c3-split">
+                <div className="bx parallax-img">
+                    <div className="by">
+                    <div className="bz ">
+                        <span className="ca about-t1 darker  ">About Us</span>
+                        <span className="bg-green cb"> </span>
                     </div>
-                    <div className="p-4 text-left gap-2 darker flex flex-col">
-                        <span className="text-left">Olympic Indoor Sports is a high-performance facility that provides
+                    <div className="darker about-t cc">
+                        <span className="cd about-t2">Olympic Indoor Sports is a high-performance facility that provides
 training in Baseball, Softball & Cricket skills.</span>
-                        <span className="text-left">We help student-athletes gain confidence, get better, and..</span>
+                        <span className="cd about-t2">We help student-athletes gain confidence, get better, and..</span>
                     </div>
-                        <div className="p-4">
-                            <p className="text-7xl inter text-color-1">HAVE FUN!</p>
+                        <div className="ce">
+                            <p className="cf inter about-t3 text-color-1">HAVE FUN!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="h-screen relative overflow-hidden ">
-                <video  className=" parallax-video" autoPlay loop muted>
+            <div className="cg lg-parallax-h">
+                <video  className=" parallax-video-sm parallax-video-lg " autoPlay loop muted>
                     <source src="Parallax.mp4" type="video/mp4" />
                 </video>
             </div>
+            </div>
+            
             {/* SPECIFICATIONS */}
-            <div className="w-screen relative shadow-md shadow-black flex flex-col justify-center text-center items-center bg-black py-3">
-            <hr className="w-full h-2 bg-green" />
-            <p className="absolute px-4  bg-black text-2xl do  text-white">The Facility</p>
+            <div className="bg-black lg-hr ch">
+            <div className="ci hr-1 bg-green" ></div>
+            <p className=" do  cj">The Facility</p>
             </div>  
-            <div className="spec h-screen flex flex-col gap-5 ">
-                <div className="m-auto w-80">
-                    <img src={emblem} height="80%" width="100%" alt="" />
+            <div className="spec  ck ">
+                <div className="cl">
+                    <img src={emblem} height="60%" width="60%" alt="" />
                 </div>
-                <div className="m-auto  ">
+                <div className="cm" >
                     <div className="inter">
-                        <div className="px-10 text-center font-bold py-4 bg-green-linear rounded-t-lg">
-                            <span>SPECIFICATIONS</span>
+                        <div className=" bg-green-linear cn">
+                            <span className="text-2xl">SPECIFICATIONS</span>
                         </div>
-                        <div className="flex bg-spec-linear rounded-b-lg text-white flex-col ">
-                            <div className="flex items-center p-4 gap-4">
+                        <div className="bg-spec-linear co ">
+                            <div className="cp lg-spec">
                                 <img src={sp1} height={"20px"} width="20px" alt="" />
                                 <p><b>25,000</b> Sq ft</p>
                             </div>
-                            <div className="flex items-center p-4 gap-4">
+                            <div className="cq lg-spec">
                                 <img src={sp2} height={"20px"} width="20px" alt="" />
                                 <p><b>14</b> Batting Cages</p>
                             </div>
-                            <div className="flex flex-wrap items-center p-1 gap-2">
-                                <img src={sp3} height={"40px"} width="40px" alt="" />
+                            <div className="cr lg-spec">
+                                <img src={sp3} height={"40px"} width="20px" alt="" />
                                 <p><b>2</b> Dedicated Cages
 for HiTtrax,<br/> Fungoman & BOLA machine</p>
                             </div>
-                            <div className="flex items-center p-4 gap-4">
+                            <div className="cs lg-spec">
                                 <img src={sp7} height={"20px"} width="20px" alt="" />
                                 <p><b>Video</b> Analysis</p>
                             </div>
-                            <div className="flex items-center p-4 gap-4">
+                            <div className="cs lg-spec">
                                 <img src={sp7} height={"20px"} width="20px" alt="" />
                                 <p><b>Certified</b> Courses</p>
                             </div>
-                            <div className="flex items-center p-4 gap-4">
+                            <div className="cs lg-spec">
                                 <img src={sp7} height={"20px"} width="20px" alt="" />
                                 <p><b>Monthly</b>  Evaluation &
 Feedback</p>
                             </div>
-                            <div className="flex items-center p-4 gap-4">
+                            <div className="cs lg-spec">
                                 <img src={sp7} height={"20px"} width="20px" alt="" />
                                 <p><b>KPI</b> Metrics</p>
                             </div>
@@ -199,34 +206,34 @@ Feedback</p>
                 </div>
             </div>
                  
-        <div className="w-screen relative shadow-md shadow-black flex flex-col justify-center text-center items-center bg-black py-3">
-            <hr className="w-full h-2 bg-green" />
-            <p className="absolute px-4  bg-black text-2xl text-white">Contact Us</p>
+        <div className="ct bg-black ">
+            <hr className="cu bg-green" />
+            <p className=" bg-black cv">Contact Us</p>
         </div>           
         
         <div>
-            <div class="flex h-screen flex-col gap-4 ">
-                <div class="h-1/2 do flex text-center flex-col bg-black-con px-4 pt-5">
-                    <div className="text-6xl text-color-1">Got questions? </div>
-                    <div className="text-3xl text-white mt-4 ">We will love to hear them!</div>
-                    <span className="text-color-1 w-60 h-40 mt-4 justify-self-center   mx-auto">
+            <div class="cw">
+                <div class="do cx">
+                    <div className="cy text-color-1">Got questions? </div>
+                    <div className="cz">We will love to hear them!</div>
+                    <span className="text-color-1 da">
                         <img src={qsMark} width="100%" height={"100%"}  alt="" />
                     </span>
                 </div>
-                <div class=" h-1/2 flex bg-gray-1 inter flex-col p-2 ">
-                    <div class="flex m-auto flex-col gap-4">
-                        <input type="text" className="bg-black-con p-2  form-border  rounded-lg" placeholder="Fist Name & Last Name"/>
-                        <input type="text" className="bg-black-con p-2 form-border rounded-lg" placeholder="Phone Number"/>
-                        <input type="text"className="bg-black-con p-2 form-border rounded-lg"  placeholder="Email Address"/>
-                        <input type="text" className="bg-black-con p-6 form-border rounded-lg" placeholder="Message or Question" />
-                        <button className="p-2 bg-green mt-4">SUBMIT</button>
+                <div class=" bg-gray-1 inter db ">
+                    <div class="dc">
+                        <input type="text" className="bg-black-con dd form-border" placeholder="Fist Name & Last Name"/>
+                        <input type="text" className="bg-black-con dd form-border" placeholder="Phone Number"/>
+                        <input type="text"className="bg-black-con dd form-border"  placeholder="Email Address"/>
+                        <input type="text" className="bg-black-con form-border de" placeholder="Message or Question" />
+                        <button className="df bg-green ">SUBMIT</button>
                     </div>
                     
                 </div>
             </div>
         </div>
         
-    <hr className="w-full h-2 inter bg-green" />
+    <hr className="dg inter bg-green" />
     <img src="imgs/logoemblem-2-1.png" alt="" id="backimg"/>
     <div class="lastcomponent">
         <div class="split1">
@@ -243,9 +250,9 @@ Feedback</p>
             </div>
             
         </div>
-        <div className="flex w-full ">
-            <div class="w-3/5 flex gap-4 flex-col ">
-                    <p className="text-sm text-color-1">QUICK LINKS</p>
+        <div className="dh">
+            <div class="di">
+                    <p className="dj text-color-1">QUICK LINKS</p>
                     <p className="">The Facility</p> 
                     <p>
                     Memberships 
@@ -260,20 +267,20 @@ Feedback</p>
                     Contact Us
                     </p>
             </div>
-            <div className=" w-2/3 mx-auto justify-self-end flex gap-2 text-end flex-col">
-                <div className="flex flex-col">
+            <div className=" dk">
+                <div className="dl">
                 <span className="text-color-1">Location</span>
                 Olympic Indoor Sports
                 9179 Red Branch rd Suite #A Columbia, MD 21045
                 </div>
             <div>
-            <div class="flex flex-col inter">
+            <div class="dm inter">
                 <span className="text-color-1">Timings</span>
                 7:00 AM EST - 11:00 PM EST from Monday to Sunday. <br/>
                 You will receive a prompt response from our team within 24 hours.
             </div>
            
-                <div class="flex flex-col  inter">
+                <div class="dl  inter">
                         <span className="text-color-1">Contact Us</span>
                         Phone:(123) 456-7890
                 </div>
@@ -283,7 +290,7 @@ Feedback</p>
             
            
         </div>
-        <div class="flex flex-wrap inter">
+        <div class="dn inter">
             
             <div class="location inter">
                 
