@@ -3,7 +3,42 @@
     padding: 0;
     font-size: .85rem;
 }
-
+.video1con{
+    background-color: transparent;
+    height: 540px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    width: 1728px;
+}
+.video1{
+    
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+@media  screen  {
+    
+}
+.sps{
+    width: 100%;
+    height: 50vh;
+}
+.parcon{
+    width: 100%;
+    display: flex;
+    background-color: #4E4E4E;
+    justify-content: space-around;
+    
+}
+.parcon img{
+    border: 1px black solid;
+    width: 20%;
+    height: 20%;
+}
 /* DESKTOP SCREEN */
 
 
@@ -25,14 +60,15 @@
         flex-direction: column;   
     }
     .lg-img-logo {
-        padding: 0.5%;
-        height: 50%;
+        
+        
         display : flex;
         justify-content: space-between;
         align-items: center;
     }
     .lg-img-logo img{
-        width: 70%;
+        width: 60%;
+        height: 11vh;
     }
     .small-window {
         display: none;
@@ -60,18 +96,13 @@
 
     }
     .lg-home-nav-item {
-        font-size: 50%;
+        font-size: 2vw;
         
     }
-    .lg-home-video-parent {
-        height: fit-content;
-    }
-    .lg-home-video-1 {
-        height: 100%;
-    }
+  
     .lg-home-overflow {
         z-index: 20;
-        top: 20%;
+        top: 30vh;
         left : 3%;
         display: flex;
         flex-direction: column;
@@ -80,12 +111,12 @@
         position: absolute;
     }
     .home-t1 {
-        font-size: 130%;
+        font-size: 3vw;
         font-weight: 800;
         color: white;
     }
     .home-t2 {
-        font-size:120%;
+        font-size:2.5vw;
         padding: 1px 10px;
         
         font-weight: 600;
@@ -95,13 +126,13 @@
         justify-content: space-between;
     }
     .home-t3,.home-t4 {
-        padding: 0.2rem 3rem;
+        padding: .1vw 1vh;
 
-        font-size: 100%;
+        font-size: 2.5vw;
     }
     .lg-home-bottom {
         display: flex;
-        width: 100vw;
+        width: 100%;
         height: 20%;
     }
     .lg-bt-1 {
@@ -116,13 +147,13 @@
         width: 70%;
     }
     .lg-bt-t1{
-        font-size: 70%;
+        font-size: 2vw;
         color: white;
         width: 100%;
     }
     .lg-hr {
-        height: 4px;
-        width: 50%;
+        height: 1vh;
+        width: 25vw;
     }
     .lg-cat {
         display: flex;
@@ -202,7 +233,7 @@
     }
    
     .nav-op{
-        font-size: 100%;
+        font-size: 2vw;
     }
     .about-t {
         width: 70%;
@@ -218,6 +249,9 @@
         align-items: center;
         justify-content: space-around;
 
+    }
+    .home-video{
+        height: 40vh;
     }
     .cb {
 
@@ -507,7 +541,7 @@ nav {
     background: url('./imgs/professional-baseball-players-1.png');
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width:99vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -528,9 +562,7 @@ nav {
     width: 100%;
     object-fit: cover;
 }
-.home-video-parent{
-    height: fit-content;
-}
+
 
 
 .qs .one{
