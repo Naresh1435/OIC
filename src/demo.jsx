@@ -1,8 +1,8 @@
 import './home.css'
+import signup from './imgs/signup.jpeg';
 function Demo() {
     return (
-        <div className="w-screen h-screen ">
-        <div className="homepage-v2 screen " data-id="170:857">
+        <div className="homepage-v2  ">
             <div className="widget-wrapper-KvsQRz widget-wrapper" data-id="G8tQF"><img
                     className="pexels-maria-orlova-4916522-1-J87ekQ" data-id="170:1097"
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
@@ -10,10 +10,13 @@ function Demo() {
                     alt="pexels-maria-orlova-4916522 1"/>
                
             </div>
-            <div className='absolute '>
+            <div className='absolute flex gap-2 '>
+                <img src={"https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg"} alt="" />
                 <p >Sign Up</p>
             </div>
-            <div className="widget-wrapper-prDeKT widget-wrapper " data-id="0az0U"><img
+            <img class="iconsax-linearusersquare-a4NNU0" data-id="I170:955;169:194" src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" alt="Iconsax/Linear/usersquare"/>
+            <div className="widget-wrapper-prDeKT widget-wrapper " data-id="0az0U">
+                <img
                     className="pexels-vlad-chean-2694317-1-n29kjS" data-id="170:858"
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                     anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed38e2ecb1a84edc9c78c7/img/pexels-vlad-che-an-2694317-1.png"
@@ -272,7 +275,6 @@ function Demo() {
                     alt="OLYMPICLOGO 1"/>
             </div>
         </div>
-    </div>
     )
 }
 

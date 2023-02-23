@@ -546,7 +546,7 @@
             overflow: hidden;
             overflow-x: hidden;
             position: relative;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .widget-wrapper-KvsQRz {
@@ -563,6 +563,7 @@
         .homepage-v2 .widget-wrapper-prDeKT {
             height: 1213px;
             top: 1111px;
+            overflow: hidden;
         }
 
         .homepage-v2 .pexels-vlad-chean-2694317-1-n29kjS {
@@ -570,6 +571,8 @@
             mix-blend-mode: normal;
             width: 100%;
             object-fit: cover;
+            will-change: transform;
+            transform: translate3d(0px, 160px, 0px);
         }
 
         .homepage-v2 .rectangle-40-KvsQRz {
@@ -710,12 +713,12 @@
 
         .homepage-v2 .rectangle-7-KvsQRz {
             background-color: var(--inchworm);
-            height: 48px;
+            height: 54px;
             left: 71px;
             mix-blend-mode: normal;
             position: absolute;
             top: 380px;
-            width: 724px;
+            width: 630px;
         }
 
         .homepage-v2 .high-performance-facility-in-the-usa-KvsQRz {
@@ -731,7 +734,7 @@
             line-height: normal;
             position: absolute;
             text-align: left;
-            top: 367px;
+            top: 355px;
             width: auto;
         }
 
@@ -739,7 +742,7 @@
             color: var(--woodsmoke);
             font-style: normal;
             font-weight: 700;
-            font-size: 2rem;
+            font-size: 3.2rem;
         }
 
         .homepage-v2 .span1-rfFgPI {
@@ -751,25 +754,25 @@
             color: var(--woodsmoke);
             font-style: normal;
             font-weight: 700;
-            font-size: 2rem;
+            font-size: 3.2rem;
         }
 
         .homepage-v2 .olympic-indoor-sports-KvsQRz {
             background-color: transparent;
             color: var(--white);
-            /* font-family: var(--font-family-darker_grotesque); */
+            font-family: 'Darker Grotesque', sans-serif;
             font-size: 4rem;
             font-style: normal;
             font-weight: 600;
             height: auto;
             left: 70px;
-            letter-spacing: 0.00px;
+            letter-spacing: 3px;
             line-height: normal;
             mix-blend-mode: normal;
             position: absolute;
             text-align: left;
             text-shadow: 0px 4px 4px #00000040;
-            top: 291px;
+            top: 300px;
             width: auto;
         }
 
