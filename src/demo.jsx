@@ -14,7 +14,7 @@ function Demo() {
                 <p >Sign Up</p>
             </div>
             <div className="widget-wrapper-prDeKT widget-wrapper " data-id="0az0U"><img
-                    className="pexels-vlad-chean-2694317-1-n29kjS parallax-img" data-id="170:858"
+                    className="pexels-vlad-chean-2694317-1-n29kjS" data-id="170:858"
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                     anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed38e2ecb1a84edc9c78c7/img/pexels-vlad-che-an-2694317-1.png"
                     alt="pexels-vlad-chean-2694317 1"/>
