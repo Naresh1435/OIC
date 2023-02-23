@@ -1,6 +1,20 @@
+import { useEffect } from 'react';
 import './home.css'
 import signup from './imgs/signup.jpeg';
+import ticker from './imgs/ticker.mp4';
+import user from './imgs/user.svg';
 function Demo() {
+    
+    useEffect(()=>{
+        if (screen.width < 415 ) {
+            console.log(document.getElementsByClassName("baseball-KvsQRz"));
+            document.getElementsByClassName("baseball-KvsQRz")[0].style.left = "60px"; 
+            document.getElementsByClassName("mouseoff-softball-KvsQRz")[0].style.left = "560px"; 
+            document.getElementsByClassName("component-6-KvsQRz")[0].style.left = "1045px"; 
+        }
+    },[]);
+
+    
     return (
         <div className="homepage-v2  ">
             <div className="widget-wrapper-KvsQRz widget-wrapper" data-id="G8tQF"><img
@@ -14,7 +28,7 @@ function Demo() {
                 <img src={"https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg"} alt="" />
                 <p >Sign Up</p>
             </div>
-            <img class="iconsax-linearusersquare-a4NNU0" data-id="I170:955;169:194" src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" alt="Iconsax/Linear/usersquare"/>
+
             <div className="widget-wrapper-prDeKT widget-wrapper " data-id="0az0U">
                 <img
                     className="pexels-vlad-chean-2694317-1-n29kjS" data-id="170:858"
@@ -61,7 +75,7 @@ function Demo() {
             <div className="rectangle-23-KvsQRz" data-id="170:882"></div>
             <p className="x2023-olympic-indoor-KvsQRz chakrapetch-normal-white-15px" data-id="170:883"><br/>© 2023 Olympic
                 Indoor Sports.&nbsp;&nbsp;Powered by Eazy Eyez Entertainment.</p><a href="signup-baseball-1">
-                <div className="baseball-KvsQRz smart-layers-pointers" data-id="170:885">
+                <div className="baseball-KvsQRz smart-layers-pointers" id='baseball-KvsQRz' data-id="170:885">
                     <div className="rectangle-13-fQlGxc" data-id="I170:885;18:36"></div><img className="vector-3-fQlGxc"
                         data-id="I170:885;21:45"
                         src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
@@ -108,10 +122,10 @@ function Demo() {
                         anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63f4d7e91b414f5918984e38/img/soft-3-1@2x.png"
                         alt="SOFT 3"/>
                 </div>
-            </a><img className="ticker-1-KvsQRz" data-id="170:888"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-                anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed38e2ecb1a84edc9c78c7/img/ticker-1.gif"
-                alt="TICKER 1"/>
+            </a><video autoPlay= "autoplay" loop className="ticker-1-KvsQRz" data-id="170:888" playsInline muted
+                src={ticker}
+                anima-src={ticker}
+                alt="TICKER 1"> </video> 
             <div className="rectangle-39-KvsQRz" data-id="170:889"></div>
             <div className="rectangle-41-KvsQRz" data-id="170:890"></div>
             <div className="specifications-KvsQRz" data-id="170:891">SPECIFICATIONS</div>
@@ -273,6 +287,7 @@ function Demo() {
                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
                     anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63f4d7e91b414f5918984e38/img/olympiclogo-1.png"
                     alt="OLYMPICLOGO 1"/>
+                    <img class="iconsax-linearusersquare-a4NNU0" data-id="I170:955;169:194" src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" anima-src="https://cdn.animaapp.com/projects/63ece14667db4bb19c023a64/releases/63ed3ddd05d0cd1ecddaf81a/img/iconsax-linear-usersquare-2.svg" alt="Iconsax/Linear/usersquare"></img>
             </div>
         </div>
     )
