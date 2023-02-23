@@ -6,7 +6,7 @@
 
 /* DESKTOP SCREEN */
 
-@media only screen and (min-width : 390px) {
+
     .signup{
         color: white;
         font-size: medium;
@@ -17,7 +17,7 @@
     }
     .lg-home {
         width: 100vw;
-        height: 100vh;
+        
     }
    
     .lg-logo {
@@ -31,37 +31,47 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+    .lg-img-logo img{
+        width: 70%;
+    }
     .small-window {
         display: none;
     }
     .small-window-2 {
         display: block;
     }
+    .font-s1{
+        font-size: 90%;
+    }
     .cm{
-        margin: auto;
+        width: 60%;
+        height: 100%;
+        padding:10% 5%;
+    }
+    .inter{
+        width: 90%;
+        height: 70%;
     }
     .lg-home-nav-items {
         display: flex;
         justify-content: space-around;
-        padding: 0.3rem;
-        padding-left: 15rem;
+        
         font-size: large;
 
     }
     .lg-home-nav-item {
-        font-size: 1rem;
+        font-size: 50%;
         
     }
     .lg-home-video-parent {
-        height: 70%;
+        height: fit-content;
     }
     .lg-home-video-1 {
         height: 100%;
     }
     .lg-home-overflow {
         z-index: 20;
-        bottom: 35%;
+        top: 20%;
         left : 3%;
         display: flex;
         flex-direction: column;
@@ -70,12 +80,12 @@
         position: absolute;
     }
     .home-t1 {
-        font-size: 3rem;
+        font-size: 130%;
         font-weight: 800;
         color: white;
     }
     .home-t2 {
-        font-size: 2.5rem;
+        font-size:120%;
         padding: 1px 10px;
         
         font-weight: 600;
@@ -87,11 +97,12 @@
     .home-t3,.home-t4 {
         padding: 0.2rem 3rem;
 
-        font-size: 1.5rem;
+        font-size: 100%;
     }
     .lg-home-bottom {
         display: flex;
         width: 100vw;
+        height: 20%;
     }
     .lg-bt-1 {
         padding: 1%;
@@ -105,8 +116,9 @@
         width: 70%;
     }
     .lg-bt-t1{
-        font-size: 2rem;
+        font-size: 70%;
         color: white;
+        width: 100%;
     }
     .lg-hr {
         height: 4px;
@@ -114,10 +126,11 @@
     }
     .lg-cat {
         display: flex;
-        margin: auto;
+        width: 100%;
         gap: 2rem;
-        padding: 4rem;
-        justify-content: center;
+        padding: 10%;
+        height: fit-content;
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
     }
@@ -132,19 +145,19 @@
         padding-bottom: 1.5rem;
     }
     .lg-card-t1 {
-        font-size: 1.5rem;
+        font-size: 100%;
     }
     .lg-card-img-p {
         position: relative;
         align-items: center;
         display: flex;
-        height: 20rem;
+        
         overflow: hidden;
     }
     .lg-card-img {
         width: 100%;
         display: flex;
-        height: 100%;
+        height: 50%;
     }
     .bs {
         position: absolute;
@@ -177,31 +190,38 @@
     .by{
         display: flex;
         left: 1rem;
-        margin:2rem 3rem;
+        width: 100%;
         text-align: left;
         color: white;
-        gap: .75rem;
+        
         flex-direction: column;
+        
     }
     .about-t1 {
-        font-size: 4rem;
+        font-size: 260%;
     }
-    .about-t2 {
-        font-size: 2rem;
+   
+    .nav-op{
+        font-size: 100%;
     }
-    .about-t {width: 70%;}
+    .about-t {
+        width: 70%;
+        font-size: 90%;
+    }
     .about-t3 {
-        font-size: 5rem;
+        font-size: 200%;
         font-weight: 900;
     }
     .bz {
         display: flex;
-        gap: 1rem;
+        width: 100%;
         align-items: center;
+        justify-content: space-around;
+
     }
     .cb {
 
-        height: 0.2rem;
+        height: 10%;
         width: 60%;
     }
     .ch{
@@ -227,7 +247,7 @@
         height: 70%;
     }
     .cn{
-        padding: 2.5rem 1rem 2.5rem 1rem;
+        padding: 3%;
         text-align: center;
         font-weight: 700;
         border-top-left-radius: 0.5rem; 
@@ -253,14 +273,18 @@
             height: 5px;
         }
         .ck{
-            height: 100vh;
+            height: 100%;
             display: flex;
             flex-direction: row;
-            gap: 1.25rem;
+            gap: 5%;
         }
         .cl{
             margin: auto;
             width: 50%;
+        }
+        .cl img{
+            width: 100%;
+            height: 50%;
         }
         .co{
             display: flex;
@@ -272,7 +296,7 @@
         .lg-spec{
             display: flex;
             align-items: center;
-            padding: 1rem;
+            padding: 3%;
             gap: 1rem;
         }
 
@@ -322,18 +346,22 @@
             margin: auto;
             flex-direction: column;
             gap: 1rem;
+            width: 100%;
         }
         .dd{
-            padding: 1rem;
+            padding: 2%;
             border-radius: 0.5rem;
+            width: 90%;
         }
         .de{
             padding: 1.5rem;
             border-radius: 0.5rem;
+            width: 90%;
         }
         .df{
-            padding: .5rem;
+            padding: 2%;
             margin-top: 1rem;
+            width: 90%;
         }
         .dg{
             width: 100%;
@@ -380,7 +408,7 @@
         }
 
 
-}
+
 
 
 
@@ -425,9 +453,13 @@ nav {
 }
 .bg-gray-1 {
     background-color:rgb(217,217, 217,0.13);
+
+    
 }
 .bg-green-linear {
-    background:linear-gradient(145deg,rgb(255, 247, 32,100),rgb(60, 213, 0,40))
+    background:linear-gradient(145deg,rgb(255, 247, 32,100),rgb(60, 213, 0,40));
+    width: 100%;
+    
 }
 .bg-spec-linear {
     background: linear-gradient(145deg,rgb(101, 101, 101,60),rgb(63, 78, 88,100));
@@ -460,10 +492,16 @@ nav {
 }
 .bg-home-card {
     background-color: #4E4E4E;
+    height: 60%;
+   
 }
 .home-card-title {
     background-color: #4E4E4E;
     border-radius: 4rem 0 4rem 0;
+}
+.home-card img{
+    width: 120%;
+    height: 120%;
 }
 .parallax-img2 {
     background: url('./imgs/professional-baseball-players-1.png');
@@ -486,12 +524,12 @@ nav {
 }
 
 .home-video {
-    height: 100%;
+    height: 60%;
     width: 100%;
     object-fit: cover;
 }
 .home-video-parent{
-    overflow: hidden;
+    height: fit-content;
 }
 
 
@@ -604,589 +642,7 @@ footer{
     background-color: black;
     color: white;
 }
-@media screen and (max-width: 390px){
-    .video-con-1 {
-        height: 95%;
-    }
-    .homecontainer{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .hm{
-        display: flex;
-        flex-direction: column;
-    }
-    .hh{
-        display: flex;
-        width: 100vw;
-        padding: 2px;
-    }
-    .aa{
-        width: 66.666667%;
-    }
-    .ab{
-        color: white;
-        position: relative;
-        display: flex;
-        justify-content: end;
-        padding-right: 0.5rem;
-        gap: 1rem;
-        width: 33.333333%;
-        justify-self: end;
-    }
-    .ac{
-        display: flex;
-        align-items: center;
-        gap: .5rem;
-
-    }
-    .small-window {
-        display: block;
-    }
-    .small-window-2 {
-        visibility: hidden;
-    }
-    .rm-small-window {
-        visibility: visible;
-    }
-    .small-window-toggle {
-        display: none;
-    }
-    .parallax-video-sm {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        z-index: 0;  
-    }
-    .ad{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        text-align: left;
-        color: black;
-        position: absolute;
-        right: 3;
-        gap: 1rem;
-        top: 10;
-        z-index: 20;
-        padding: 2px;
-        font-size: 0.875rem; 
-        line-height: 1.25rem; 
-    
-    }
-    .ae{
-        border: 2px black solid;
-        border-radius: 0.375rem;
-        padding-top: 0.25rem; 
-        padding-bottom: 0.25rem;
-        padding-left: 0.5rem; 
-        padding-right: 0.5rem;
-    }
-    .af{
-        position: relative;
-    }
-    .ag{
-        height: 100%;
-        z-index: 10;
-        position: relative;
-    }
-    .ah{
-        z-index: 20;
-        bottom: 33.333333%;
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-        padding: 2px;
-        position: absolute;
-    }
-    .ai{
-        color: white;
-        font-weight: 700;
-        font-size: 1.875rem; 
-        line-height: 2.25rem;
-    }
-    .aj{
-        padding-left: 0.5rem; 
-        padding-right: 0.5rem;
-        padding-top: 0.25rem; /* 4px */
-        padding-bottom: 0.25rem;
-        font-size: 1.125rem; /* 18px */
-        line-height: 1.75rem;
-        font-weight: 700;
-    }
-    .ak{
-        display: flex;
-        margin-top: 0.5rem;
-        width: 100%;
-        gap: 1rem; 
-
-    }
-    .al{
-        padding-left: 2rem; 
-        padding-right: 2rem; 
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-        font-size: 1.25rem; 
-        line-height: 1.75rem;
-    }
-    .am{
-        padding-left: 2rem;     
-        padding-right: 2rem;
-        padding-top: 0.25rem; 
-        padding-bottom: 0.25rem;
-        font-size: 1.25rem; 
-        line-height: 1.75rem;
-    }
-    .an{
-        display: flex;
-        text-align: center;
-        padding-top: 0.5rem; 
-        padding-bottom: 0.5rem;
-        gap: 0.75rem;
-    }
-    .ao{
-        display: flex;
-        width: 40%;
-        align-items: center;
-        gap: .5rem;
-        padding-left: 1rem; 
-        padding-right: 1rem;
-        padding-top: 0.5rem; 
-        padding-bottom: 0.5rem;
-        border-top-right-radius: 1rem;
-        color: white;
-    }
-    .ap{
-        width: 100%;
-    }
-    .aq{
-        height: 0.5rem;
-        width: 4rem;
-    }
-    .ar{
-        display: flex;
-        width: 60%;
-        align-items: center;
-        gap: .5rem;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        border-top-left-radius: 1rem;
-        color: white;
-    }
-    .as{
-        padding-left: .5rem;
-        padding-right: .5rem;
-    }
-    .at{
-        height: 100%;
-        padding: 1rem 2rem 1rem 2rem;
-        display: flex;
-    }
-    .au{
-        display: flex;
-        margin: auto;
-        gap: 5px;
-        padding: .5rem;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .av{
-        width: 83.333333%;
-        position: relative;
-    }
-    .aw{
-        text-align: center;
-        overflow: hidden;
-        padding-top: 1.5rem; 
-        padding-bottom: 1.5rem;
-
-    }
-    .ax{
-        font-size: 1.5rem;
-        line-height: 2rem;
-        font-weight: 700;
-        color: white;
-        
-    }
-    .ay{
-        position: relative;
-        align-items: center;
-        display: flex;
-    }
-    .az{
-        width: 100%;
-        display: flex;
-        height: 100%;
-    }
-    .ba{
-        position: absolute;
-        height: 66.666667%;
-        top: 50%;
-        width: .75rem;
-        border-top-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-    }
-    .bb{
-        border-width: 2px;
-        box-sizing: border-box;
-    }
-    .bc{
-        width: 100%;
-        padding: 1.5rem;
-        text-align: center;
-    }
-    .bd{
-        font-size: 1.875rem; /* 30px */
-        line-height: 2.25rem;
-        font-weight: 700;
-    }
-    .be{
-        width: 83.333333%;
-        position: relative;
-    }
-    .bf{
-        text-align: center;
-        overflow: hidden;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-    .bg{
-        font-size: 1.5rem;
-        line-height: 2rem;
-        font-weight: 700;
-        color: white;
-
-    }
-    .bh{
-        position: relative;
-        align-items: center;
-        display: flex;
-    }
-    .bi{
-        width: 100%;
-        display: flex;
-        height: 100%;
-    }
-    .bj{
-        position: absolute;
-        height: 66.666667%;
-        top: 50%;
-        width: .75rem;
-        border-top-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-    }
-    .bk{
-        border-width: 2px;
-        box-sizing: border-box;
-    }
-    .bl{
-        width: 100%;
-        padding: 1.5rem;
-        text-align: center;
-    }
-    .bm{
-        font-size: 1.875rem; 
-        line-height: 2.25rem; 
-        font-weight: 700;
-    }
-    .bn{
-        width: 83.333333%;
-        position: relative;
-    }
-    .bo{
-        text-align: center;
-        overflow: hidden;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-    .bp{
-        font-size: 1.5rem; /* 24px */
-        line-height: 2rem;
-        font-weight: 700;
-        color: white;
-    }
-    .bq{
-        position: relative;
-        align-items: center;
-        display: flex;
-    }
-    .br{
-        width: 100%;
-        height: 100%;
-        display: flex;
-    }
-    .bs{
-        position: absolute;
-        height: 66.6666667%;
-        top: 50%;
-        width: .75rem;
-        border-top-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-
-    }
-    .bt{
-        border-width: 2px;
-        box-sizing: border-box;
-    }
-    .bu{
-        width: 100%;
-        padding: 1.5rem;
-        text-align: center;
-    }
-    .bv{
-        font-size: 1.875rem; 
-        line-height: 2.25rem;
-        font-weight: 700;
-    }
-    .bw{
-        height: 100vh;
-    }
-    .bx{
-        height: 100%;
-        display: flex;
-    }
-    .by{
-        display: flex;
-        margin: auto;
-        text-align: left;
-        color: white;
-        gap: .75rem;
-        flex-direction: column;
-    }
-    .bz{
-        display:flex;
-        padding: 1rem;
-        align-items: center;
-    }
-    .ca{
-        font-size: 3rem; 
-        line-height: 1;
-        width: 50%;
-    }
-    .cb{
-        height: .5rem;
-        width: 50%;
-    }
-    .cc{
-        padding: 1rem;
-        text-align: left;
-        gap: .5rem;
-        display: flex;
-        flex-direction: column;
-    }
-    .cd{
-        text-align: left;
-    }
-    .ce{
-        padding: 1rem;
-    }
-    .cf{
-        font-size: 4.5rem; 
-        line-height: 1;
-    }
-    .cg{
-        height: 100vh;
-        position: relative;
-        overflow: hidden;
-    }
-    .ch{
-        width: 100vw;
-        position: relative;
-        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        padding-top: .75rem;
-        padding-bottom: .75rem;
-    }
-    .ci{
-        width: 100%;
-        height: .5rem;
-    }
-    .cj{
-        position: absolute;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 1.5rem; 
-        line-height: 2rem;
-        color: white;
-    }
-    .ck{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        gap: 1.25rem;
-    }
-    .cl{
-        margin: auto;
-        width: 20rem;
-    }
-    .cm{
-        margin: auto;
-    }
-    .cn{
-        padding: 2.5rem 1rem 2.5rem 1rem;
-        text-align: center;
-        font-weight: 700;
-        border-top-left-radius: 0.5rem; 
-        border-top-right-radius: 0.5rem;
-    }
-    .co{
-        display: flex;
-        border-bottom-right-radius: 0.5rem; 
-        border-bottom-left-radius: 0.5rem; 
-        color: white;
-        flex-direction: column;
-    }
-    .cp{
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        gap: 1rem;
-    }
-    .cq{
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        gap: 4;
-    }
-    .cr{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: .25rem;
-        gap: .5rem;
-    }
-    .cs{
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        gap: 1rem;
-    }
-    .ct{
-        width: 100vw;
-        position: relative;
-        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        padding: .75rem 0 .75rem 0;
-
-    }
-    .cu{
-        width: 100%;
-        height: .5rem;
-    }
-    .cv{
-        position: absolute;
-        padding: 0 1rem 0 1rem;
-        font-size: 1.5rem; 
-        line-height: 2rem;
-        color: white;
-    }
-    .cw{
-        display: flex;
-        height: 100vh;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .cx{
-        height: 50%;
-        flex-direction: column;
-        display: flex;
-        text-align: center;
-        padding: 1.25rem 1rem 0 1rem;
-    }
-    .cy{
-        font-size: 3.75rem; 
-        line-height: 1;
-    }
-    .cz{
-        font-size: 1.875rem;
-        line-height: 2.25rem;
-        color: white;
-        margin-top: 1rem;
-    }
-    .da{
-        color: white;
-        width: 15rem;
-        height: 10rem;
-        margin-top: 1rem;
-        justify-self: center;
-        margin: 0 auto 0 auto;
-    }
-    .db{
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        padding: .5rem;
-    }
-    .dc{
-        display: flex;
-        margin: auto;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .dd{
-        padding: .5rem;
-        border-radius: 0.5rem;
-    }
-    .de{
-        padding: .1.5rem;
-        border-radius: 0.5rem;
-    }
-    .df{
-        padding: .5rem;
-        margin-top: 1rem;
-    }
-    .dg{
-        width: 100%;
-        height: .5rem;
-    }
-    .dh{
-        display: flex;
-        width: 100%;
-    }
-    .di{
-        width: 60%;
-        display: flex;
-        gap: 1rem;
-        flex-direction: column;
-    }
-    .dj{
-        font-size: 0.875rem; 
-        line-height: 1.25rem; 
-    }
-    .dk{
-        width: 66.666667%;
-        margin: 0 auto 0 auto;
-        justify-self: end;
-        display: flex;
-        gap: .5rem;
-        text-align: end;
-        flex-direction: column;
-    }
-    .dl{
-        display: flex;
-        flex-direction: column;
-    }
-    .dm{
-        display: flex;
-        flex-direction: column;
-    }
-    .dn{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .dp{
-        font-size: 0.875rem; /* 14px */
-        line-height: 1.25rem; 
-    }
+.cd{
+    font-size: 150%;
+    width: 70%;
 }
