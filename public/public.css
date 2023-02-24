@@ -612,7 +612,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 760px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .widget-wrapper-kxbt7L {
@@ -630,11 +630,11 @@
         .homepage-v2 .rectangle-52-KvsQRz {
             background-color: var(--alto);
             height: 701px;
-            left: 834px;
+            left: 50%;
             mix-blend-mode: normal;
             position: absolute;
             top: 3757px;
-            width: 894px;
+            width: 50%;
         }
 
         .homepage-v2 .rectangle-9-KvsQRz {
@@ -644,7 +644,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 663px;
-            width: 1729px;
+            width: 100%;
         }
 
         .homepage-v2 .rectangle-8-KvsQRz {
@@ -668,7 +668,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 2679px;
-            width: 1783px;
+            width: 106%;
         }
 
         .homepage-v2 .rectangle-42-KvsQRz {
@@ -680,7 +680,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 3691px;
-            width: 1783px;
+            width: 106%;
         }
 
         .homepage-v2 .rectangle-14-KvsQRz {
@@ -702,7 +702,7 @@
             overflow: hidden;
             position: absolute;
             top: 124px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .comp-1-1-KvsQRz video {
@@ -799,14 +799,14 @@
         }
 
         .homepage-v2 .the-facility-KvsQRz {
-            left: 620px;
+            left: 36%;
             text-align: center;
             top: 2690px;
             width: 487px;
         }
 
         .homepage-v2 .contact-us-KvsQRz {
-            left: 620px;
+            left: 36%;
             text-align: center;
             top: 3702px;
             width: 487px;
@@ -825,21 +825,21 @@
         .homepage-v2 .rectangle-36-KvsQRz {
             background-color: var(--inchworm);
             height: 12px;
-            left: 1042px;
+            left: 61%;
             mix-blend-mode: normal;
             position: absolute;
             top: 2707px;
-            width: 686px;
+            width: 45%;
         }
 
         .homepage-v2 .rectangle-43-KvsQRz {
             background-color: var(--inchworm);
             height: 12px;
-            left: 1042px;
+            left: 61%;
             mix-blend-mode: normal;
             position: absolute;
             top: 3719px;
-            width: 686px;
+            width: 46%;
         }
 
         .homepage-v2 .rectangle-37-KvsQRz {
@@ -870,7 +870,7 @@
             overflow: hidden;
             position: absolute;
             top: 1906px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .imageseq-KvsQRz video {
@@ -890,7 +890,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 4799px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .x2023-olympic-indoor-KvsQRz {
@@ -910,7 +910,7 @@
             background-color: transparent;
             cursor: pointer;
             height: 546px;
-            left: 144px;
+            left: 10%;
             mix-blend-mode: normal;
             pointer-events: auto;
             position: absolute;
@@ -1003,7 +1003,7 @@
             background-color: transparent;
             cursor: pointer;
             height: 546px;
-            left: 1160px;
+            left: 66%;
             mix-blend-mode: normal;
             pointer-events: auto;
             position: absolute;
@@ -1104,7 +1104,7 @@
             background-color: transparent;
             cursor: pointer;
             height: 546px;
-            left: 661px;
+            left: 38.5%;
             mix-blend-mode: normal;
             overflow-y: scroll;
             pointer-events: auto;
@@ -1112,6 +1112,7 @@
             top: 811px;
             transition: all 0.2s ease;
             width: 412px;
+            overflow-x: hidden;
         }
 
         .homepage-v2 .mouseoff-softball-KvsQRz:hover {
@@ -1189,7 +1190,7 @@
 
         .homepage-v2 .soft-3-1rytlA {
             height: 314px;
-            left: 18px;
+            left: 10%;
             top: 100px;
             width: 393px;
         }
@@ -1197,11 +1198,11 @@
         .homepage-v2 .ticker-1-KvsQRz {
             background-color: transparent;
             height: 53px;
-            left: 666px;
+            left: 40%;
             mix-blend-mode: lighten;
             position: absolute;
             top: 688px;
-            width: 1062px;
+            width: 60%;
         }
 
         .homepage-v2 .rectangle-39-KvsQRz {
@@ -1211,7 +1212,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 1405px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .rectangle-41-KvsQRz {
@@ -1221,7 +1222,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 1901px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .specifications-KvsQRz {
@@ -1506,7 +1507,7 @@
             border-color: var(--gray);
             border-radius: 30px;
             height: 64px;
-            left: 978px;
+            left: 59%;
             mix-blend-mode: normal;
             position: absolute;
             top: 3854px;
@@ -1519,7 +1520,7 @@
             border-color: var(--gray);
             border-radius: 30px;
             height: 64px;
-            left: 978px;
+            left: 59%;
             mix-blend-mode: normal;
             position: absolute;
             top: 3944px;
@@ -1532,7 +1533,7 @@
             border-color: var(--gray);
             border-radius: 30px;
             height: 64px;
-            left: 978px;
+            left: 59%;
             mix-blend-mode: normal;
             position: absolute;
             top: 4034px;
@@ -1545,7 +1546,7 @@
             border-color: var(--gray);
             border-radius: 30px;
             height: 151px;
-            left: 978px;
+            left: 59%;
             mix-blend-mode: normal;
             position: absolute;
             top: 4124px;
@@ -1555,7 +1556,7 @@
         .homepage-v2 .first-name-last-name-KvsQRz {
             background-color: transparent;
             height: auto;
-            left: 1020px;
+            left: 61%;
             letter-spacing: 0.00px;
             line-height: normal;
             mix-blend-mode: normal;
@@ -1568,7 +1569,7 @@
         .homepage-v2 .phone-number-KvsQRz {
             background-color: transparent;
             height: auto;
-            left: 1020px;
+            left: 61%;
             letter-spacing: 0.00px;
             line-height: normal;
             mix-blend-mode: normal;
@@ -1581,7 +1582,7 @@
         .homepage-v2 .email-address-KvsQRz {
             background-color: transparent;
             height: auto;
-            left: 1020px;
+            left: 61%;
             letter-spacing: 0.00px;
             line-height: normal;
             mix-blend-mode: normal;
@@ -1594,7 +1595,7 @@
         .homepage-v2 .message-or-question-KvsQRz {
             background-color: transparent;
             height: auto;
-            left: 1020px;
+            left: 61%;
             letter-spacing: 0.00px;
             line-height: normal;
             mix-blend-mode: normal;
@@ -1607,7 +1608,7 @@
         .homepage-v2 .rectangle-51-KvsQRz {
             background-color: var(--inchworm);
             height: 65px;
-            left: 1105px;
+            left: 65%;
             mix-blend-mode: normal;
             position: absolute;
             top: 4325px;
@@ -1617,7 +1618,7 @@
         .homepage-v2 .submit-KvsQRz {
             background-color: transparent;
             height: auto;
-            left: 1239px;
+            left: 72%;
             letter-spacing: 0.00px;
             line-height: normal;
             mix-blend-mode: normal;
@@ -1716,7 +1717,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 4465px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .rectangle-68-KvsQRz {
@@ -1726,7 +1727,7 @@
             mix-blend-mode: normal;
             position: absolute;
             top: 4457px;
-            width: 1728px;
+            width: 100%;
         }
 
         .homepage-v2 .olympic-indoor-sport-prDeKT {
