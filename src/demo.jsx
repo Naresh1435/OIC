@@ -130,7 +130,7 @@ function Demo() {
             <div className="rectangle-41-KvsQRz" data-id="170:890"></div>
             <div className="specifications-KvsQRz" data-id="170:891">SPECIFICATIONS</div>
             <div className="x25000-sq-ft-KvsQRz inter-extra-bold-cloud-24px" data-id="170:892"><span
-                    className="span0-oRCP2l inter-extra-bold-cloud-24px">25,000</span><span
+                    className="span0-oRCP2l inter-extra-bold-cloud-24px">20,000</span><span
                     className="span1-oRCP2l inter-medium-cloud-24px"> Sq ft</span></div>
             <div className="x14-batting-cages-KvsQRz inter-extra-bold-cloud-24px" data-id="170:1067"><span
                     className="span0-tRCxAK inter-extra-bold-cloud-24px">14</span><span
